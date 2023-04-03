@@ -317,7 +317,6 @@ textarea {
 .home-hero__cta {
   margin-top: 5rem;
   text-align: center;
-  
 }
 
 .about {
@@ -988,25 +987,24 @@ textarea {
   font-size: 3rem;
 }
 
-
-.resume-btn{
+.resume-btn {
   background-color: black;
-  height: 40px; 
+  height: 40px;
   border-radius: 10px;
   width: 100px;
   color: white;
   font-size: 1.8rem;
 }
 
-.resume-list{
+.resume-list {
   height: 150px;
 }
 
-#resume-list>a{
-  padding:14px 10px;
+#resume-list > a {
+  padding: 14px 10px;
 }
 
-#home-resume{
+#home-resume {
   background-color: black;
   color: white;
   margin-left: 1%;
@@ -1014,7 +1012,7 @@ textarea {
 }
 
 @media only screen and (max-width: 800px) {
-  .git-contribution{
+  .git-contribution {
     display: none;
   }
 }
