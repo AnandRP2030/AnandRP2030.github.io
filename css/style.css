@@ -1024,3 +1024,7 @@ textarea {
   margin: auto;
   display: block;
 }
+
+.github-btn{
+  margin-left: 20px;
+}
