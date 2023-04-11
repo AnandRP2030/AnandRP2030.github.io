@@ -234,9 +234,10 @@ textarea {
 
 .home-hero {
   color: #fff;
+ 
   background: linear-gradient(
       to right,
-      rgba(0, 98, 185, 0.8),
+      rgb(195 15 238 / 80%),
       rgba(0, 98, 185, 0.8)
     ),
     url(../../assets/svg/common-bg.svg);
@@ -299,7 +300,7 @@ textarea {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+
   max-width: 90rem;
   width: 92%;
 }
@@ -407,20 +408,19 @@ textarea {
   margin-bottom: 2rem;
 }
 
-.tech-stack-box{
+.tech-stack-box {
   /* border: 1px solid black; */
   margin-bottom: 10px;
   color: black;
 }
 
-.tech-stack-head{
+.tech-stack-head {
   font-weight: 700;
   font-size: 2.5rem;
 }
-.techStack-desc{
+.techStack-desc {
   font-weight: 600;
-  font-size:1.8rem;
-
+  font-size: 1.8rem;
 }
 @media only screen and (max-width: 37.5em) {
   .projects__row-content-title {
@@ -897,6 +897,13 @@ textarea {
   margin-right: 1.5rem;
   font-size: 1.6rem;
   background-color: #0062b9;
+  /* background: linear-gradient(
+    to right,
+    rgb(195 15 238 / 80%),
+    rgba(0, 98, 185, 0.8)
+  ),
+  url(../../assets/svg/common-bg.svg); */
+
   border-radius: 5px;
   font-weight: 600;
   width: 150px;
@@ -957,6 +964,7 @@ textarea {
 }
 .skills_skill {
   width: 200px;
+  
 }
 
 .skills_skill > p {
@@ -966,6 +974,7 @@ textarea {
 .skills__skill > p {
   width: 100%;
   box-sizing: border-box;
+  
 }
 
 .skills__skill > img {
@@ -1005,7 +1014,13 @@ textarea {
 }
 
 .resume-btn {
-  background-color: black;
+  /* background-color: black; */
+  background: linear-gradient(
+    to right,
+    rgb(195 15 238 / 80%),
+    rgba(0, 98, 185, 0.8)
+  ),
+  url(../../assets/svg/common-bg.svg);
   height: 40px;
   border-radius: 10px;
   width: 100px;
@@ -1022,7 +1037,7 @@ textarea {
 }
 
 #home-resume {
-  background-color: black;
+  background-color: rgb(210, 11, 11);
   color: white;
   margin-left: 1%;
   margin-top: 20px;
@@ -1034,13 +1049,13 @@ textarea {
   }
 }
 
-.anand-img{
+.anand-img {
   width: 200px;
   border-radius: 50%;
   margin: auto;
   display: block;
 }
 
-.github-btn{
+.github-btn {
   margin-left: 20px;
 }
