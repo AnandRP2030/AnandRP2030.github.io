@@ -406,6 +406,22 @@ textarea {
   font-size: 2.8rem;
   margin-bottom: 2rem;
 }
+
+.tech-stack-box{
+  /* border: 1px solid black; */
+  margin-bottom: 10px;
+  color: black;
+}
+
+.tech-stack-head{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.techStack-desc{
+  font-weight: 600;
+  font-size:1.8rem;
+
+}
 @media only screen and (max-width: 37.5em) {
   .projects__row-content-title {
     font-size: 2.4rem;
@@ -416,7 +432,7 @@ textarea {
   color: grey;
   max-width: 60rem;
   line-height: 1.7;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 @media only screen and (max-width: 37.5em) {
   .projects__row-content-desc {
