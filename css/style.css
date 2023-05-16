@@ -440,7 +440,7 @@ textarea {
   }
 }
 
-.contact {
+/* .contact {
   background: linear-gradient(
       to right,
       rgba(0, 98, 185, 0.8),
@@ -450,7 +450,7 @@ textarea {
   background-size: cover;
   background-position: center;
   margin-top: 100px;
-}
+} */
 .contact__form-container {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background: white;
