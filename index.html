@@ -27,7 +27,7 @@
     ></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="nav-menu">
       <div class="header__content">
         <div class="header__logo-container">
           
@@ -35,19 +35,22 @@
         </div>
         <div class="header__main">
           <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+            <li class="header__link-wrapper nav-link home" >
+              <a  href="#home" class="header__link"> Home </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <a href="./index.html#about" class="header__link nav-link about">About </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
+              <a href="./index.html#skills" class="header__link nav-link skills">Skills</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link nav-link projects">
                 Projects
               </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./index.html#contact" class="header__link nav-link contact"> Contact </a>
             </li>
             <li id="resume-list" class="header__link-wrapper">
               <a
@@ -55,7 +58,7 @@
                 target="_blank"
                 class="header__link"
               >
-                <button class="resume-btn">Resume</button>
+                <button class="resume-btn nav-link resume">Resume</button>
               </a>
             </li>
           </ul>
@@ -98,7 +101,7 @@
     </header>
 
     <!-- body  -->
-    <section class="home-hero">
+    <section class="home-hero" id="home">
       <div class="home-hero__content">
         <img
         src="https://avatars.githubusercontent.com/u/106311407?v=4"
@@ -171,7 +174,7 @@
             <!-- about me paragraph you can write here  -->
           </span>
         </h2>
-        <div class="about__content">
+        <div class="about__content" >
           <div class="about__content-main">
             <h3 class="about__content-title">Get to know me!</h3>
             <div class="about__content-details">
@@ -193,7 +196,7 @@
               >Contact</a
             >
           </div>
-          <div class="about__content-skills">
+          <div class="about__content-skills" id="skills">
             <h3 class="about__content-title">Tech Stack</h3>
             <div class="skills">
               <div class="skills__skill">
