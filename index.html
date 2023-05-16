@@ -30,13 +30,12 @@
     <header class="header" id="nav-menu">
       <div class="header__content">
         <div class="header__logo-container">
-          
           <span class="header__logo-sub">Anand R P</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
-            <li class="header__link-wrapper" >
-              <a  href="#home" class="header__link nav-link home"> Home </a>
+            <li class="header__link-wrapper">
+              <a href="#home" class="header__link nav-link home"> Home </a>
             </li>
             <li class="header__link-wrapper">
               <a href="#about" class="header__link nav-link about">About </a>
@@ -50,7 +49,9 @@
               </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="#contact" class="header__link nav-link contact"> Contact </a>
+              <a href="#contact" class="header__link nav-link contact">
+                Contact
+              </a>
             </li>
             <li id="resume-list" class="header__link-wrapper">
               <a
@@ -77,7 +78,6 @@
         </div>
       </div>
       <div class="header__sm-menu">
-
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
@@ -104,13 +104,14 @@
     <section class="home-hero" id="home">
       <div class="home-hero__content">
         <img
-        src="https://avatars.githubusercontent.com/u/106311407?v=4"
-        alt="Anand R P Image"
-        class="anand-img"
-        
+          src="https://avatars.githubusercontent.com/u/106311407?v=4"
+          alt="Anand R P Image"
+          class="anand-img home-img"
         />
-        <h1 class="heading-primary" id="user-detail-name">Hey, My name is Anand</h1>
-        <div class="home-hero__info" >
+        <h1 class="heading-primary" id="user-detail-name">
+          Hey, My name is Anand
+        </h1>
+        <div class="home-hero__info">
           <p class="text-primary" id="user-detail-intro">
             A Passionate Full-Stack Web Developer capable of writing
             production-ready code using React JS, Redux, and CSS on the
@@ -133,6 +134,7 @@
           <a
             href="https://www.linkedin.com/in/anandrp2030/"
             class="home-hero__social-icon-link"
+            id="contact-linkedin"
           >
             <img
               src="./assets/png/linkedin-ico.png"
@@ -141,8 +143,9 @@
             />
           </a>
         </div>
-        <div class="home-hero__social">
+        <div class="home-hero__social" style="background-color: red">
           <a
+            id="contact-github"
             href="https://github.com/AnandRP2030"
             class="home-hero__social-icon-link"
           >
@@ -174,7 +177,7 @@
             <!-- about me paragraph you can write here  -->
           </span>
         </h2>
-        <div class="about__content" >
+        <div class="about__content">
           <div class="about__content-main">
             <h3 class="about__content-title">Get to know me!</h3>
             <div class="about__content-details">
@@ -196,116 +199,115 @@
               >Contact</a
             >
           </div>
-          <div class="about__content-skills" id="skills">
+          <div class="about__content-skills " id="skills">
             <h3 class="about__content-title">Tech Stack</h3>
             <div class="skills">
-              <div class="skills__skill">
-                
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png"
                   alt="img"
                 />
-                <p>HTML</p>
+                <p class="skills-card-name">HTML</p>
               </div>
-              <div class="skills__skill">
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
                   alt="img"
                 />
-                <p>CSS</p>
+                <p  class="skills-card-name">CSS</p>
               </div>
-              <div class="skills__skill">
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://uploads-ssl.webflow.com/62038ffc9cd2db4558e3c7b7/6242e5dd4337267623f1e7a5_js.svg"
                   alt="img"
                 />
-                <p>JavaScript</p>
+                <p class="skills-card-name">JavaScript</p>
               </div>
-              <div class="skills__skill">
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://www.svgviewer.dev/static-svgs/34566/mongodb.svg"
                   alt="img"
                 />
-                <p>Mongo DB</p>
+                <p class="skills-card-name">Mongo DB</p>
               </div>
-              <div class="skills__skill">
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"
                   alt="img"
                 />
-                <p>Express</p>
+                <p class="skills-card-name">Express</p>
               </div>
-              <div class="skills__skill">
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://softprodigy.com/wp-content/uploads/2019/06/react-js.png"
                   alt="img"
                 />
-                <p>React</p>
+                <p class="skills-card-name">React</p>
               </div>
-              <div class="skills__skill">
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/node-512.png"
                   alt="img"
                 />
-                <p>Node</p>
+                <p class="skills-card-name">Node</p>
               </div>
-              <div class="skills__skill">
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png"
                   alt="img"
                 />
-                <p>Redux</p>
+                <p class="skills-card-name">Redux</p>
               </div>
 
-              <div class="skills__skill">
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://avatars.githubusercontent.com/u/2918581?s=280&v=4"
                   alt="img"
                 />
-                <p>Bootstrap</p>
+                <p class="skills-card-name">Bootstrap</p>
               </div>
 
-              <div class="skills__skill">
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://www.happylifecreators.com/wp/wp-content/uploads/2022/06/chakra-ui_title2-400x400.png"
                   alt="img"
                 />
-                <p>Chakra UI</p>
+                <p class="skills-card-name">Chakra UI</p>
               </div>
 
-              <div class="skills__skill">
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://www.svgrepo.com/show/360451/github-circle.svg"
                   alt="img"
                 />
-                <p>Github</p>
+                <p class="skills-card-name">Github</p>
               </div>
-              <div class="skills__skill">
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
                   alt="img"
                 />
-                <p>Git Bash</p>
+                <p class="skills-card-name">Git Bash</p>
               </div>
-              <div class="skills__skill">
+              <div class="skills__skill skills-card">
                 <img
-                  class="skill-logo"
+                  class="skill-logo skills-card-img"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrTwTAN4hURA4NwdOqg6yl2P09f9r4E8X-AGwsOOc&s"
                   alt="img"
                 />
-                <p>AWS</p>
+                <p class="skills-card-name">AWS</p>
               </div>
             </div>
           </div>
@@ -331,43 +333,40 @@
                 loading="lazy"
               />
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Spotify-Clone</h3>
-              <p class="projects__row-content-desc">
+            <div class="projects__row-content project-card">
+              <h3 class="projects__row-content-title project-title">
+                Spotify-Clone
+              </h3>
+              <p class="projects__row-content-desc project-description">
                 Spotify clone has a dynamic homepage, search page,
                 lyrics-library page, create playlist page, and liked song page,
                 making it a complete music experience.
               </p>
-              <div class="tech-stack-box"> 
+              <div class="tech-stack-box">
                 <h6 class="tech-stack-head">Tech Stack</h6>
-                <p class="techStack-desc"> 
-                  React JS, 
-                  Chakra UI, 
-                  Rapid API, 
-                  React-Credit-Card-Validator,
+                <p class="techStack-desc project-tech-stack">
+                  React JS, Chakra UI, Rapid API, React-Credit-Card-Validator,
                   JavaScript
                 </p>
               </div>
-                  
-                  
-                  
+
               <div>
                 <a
                   href="https://spotify-clone4me.netlify.app/"
-                  class="btn btn--med btn--theme dynamicBgClr"
+                  class="btn btn--med btn--theme dynamicBgClr project-deployed-link"
                   target="_blank"
                   >Live</a
                 >
                 <a
                   href="https://github.com/AnandRP2030/Spotify-clone"
-                  class="btn btn--med btn--theme dynamicBgClr github-btn"
+                  class="btn btn--med btn--theme dynamicBgClr github-btn project-github-link"
                   target="_blank"
                   >Git hub</a
                 >
               </div>
             </div>
           </div>
-          <div class="projects__row">
+          <div class="projects__row project-card">
             <div class="projects__row-img-cont">
               <img
                 src="./assets/projects/weather-img.png"
@@ -377,36 +376,38 @@
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Weather APP</h3>
-              <p class="projects__row-content-desc">
+              <h3 class="projects__row-content-title project-title">
+                Weather APP
+              </h3>
+              <p class="projects__row-content-desc project-description">
                 In this weather application, you can search for the weather in
                 major cities. The app is responsive and dark mode available. The
                 temperature units can be switched between Fahrenheit, Kelvin,
                 and Celsius.
               </p>
-              <div class="tech-stack-box"> 
+              <div class="tech-stack-box">
                 <h6 class="tech-stack-head">Tech Stack</h6>
-                <p class="techStack-desc"> 
-                  HTML, CSS, JavaScript, Weather API 
+                <p class="techStack-desc project-tech-stack">
+                  HTML, CSS, JavaScript, Weather API
                 </p>
               </div>
               <div>
                 <a
                   href="https://anandrp2030.github.io/weather-app/"
-                  class="btn btn--med btn--theme dynamicBgClr"
+                  class="btn btn--med btn--theme dynamicBgClr project-deployed-link"
                   target="_blank"
                   >Live</a
                 >
                 <a
                   href="https://github.com/AnandRP2030/weather-app"
-                  class="btn btn--med btn--theme dynamicBgClr github-btn"
+                  class="btn btn--med btn--theme dynamicBgClr github-btn project-github-link"
                   target="_blank"
                   >Git hub</a
                 >
               </div>
             </div>
           </div>
-          <div class="projects__row">
+          <div class="projects__row project-card">
             <div class="projects__row-img-cont">
               <img
                 src="./assets/projects/kfc-gif.gif"
@@ -416,31 +417,31 @@
               />
             </div>
             <div class="projects__row-content">
-              <h3 class="projects__row-content-title">KFC-Clone Project</h3>
-              <p class="projects__row-content-desc">
+              <h3 class="projects__row-content-title project-title">
+                KFC-Clone Project
+              </h3>
+              <p class="projects__row-content-desc project-description">
                 The aim of this project is to develop a KFC clone website with a
                 modern and user-friendly interface. The website will include
                 these pages Login, Home, Menu, Payment, Order History and
                 wokflow
               </p>
-              <div class="tech-stack-box"> 
+              <div class="tech-stack-box">
                 <h6 class="tech-stack-head">Tech Stack</h6>
-                <p class="techStack-desc"> 
+                <p class="techStack-desc project-tech-stack">
                   HTML, CSS, JavaScript, Email JS, GoogleMAP API
-                  
-                  
                 </p>
               </div>
               <div>
                 <a
                   href="https://my-kfc-clone3.netlify.app/"
-                  class="btn btn--med btn--theme dynamicBgClr"
+                  class="btn btn--med btn--theme dynamicBgClr project-deployed-link"
                   target="_blank"
                   >Live</a
                 >
                 <a
                   href="https://github.com/AnandRP2030/KFC-Clone"
-                  class="btn btn--med btn--theme dynamicBgClr github-btn"
+                  class="btn btn--med btn--theme dynamicBgClr github-btn project-github-link"
                   target="_blank"
                   >Git hub</a
                 >
@@ -457,32 +458,32 @@
                 loading="lazy"
               />
             </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Nykaa-Clone Project</h3>
-              <p class="projects__row-content-desc">
+            <div class="projects__row-content project-card">
+              <h3 class="projects__row-content-title project-title">
+                Nykaa-Clone Project
+              </h3>
+              <p class="projects__row-content-desc project-description">
                 The goal of NYKAACLONE was to create a replica of Nykaa.com that
                 functions similarly to the original website. This includes the
                 ability to browse and purchase products, create an account, and
                 view order history.
               </p>
-              <div class="tech-stack-box"> 
+              <div class="tech-stack-box">
                 <h6 class="tech-stack-head">Tech Stack</h6>
-                <p class="techStack-desc"> 
+                <p class="techStack-desc project-tech-stack"></p>
                   HTML, CSS, JavaScript
-                  
-                  
                 </p>
               </div>
               <div>
                 <a
                   href="https://nyka-clone.netlify.app/"
-                  class="btn btn--med btn--theme dynamicBgClr"
+                  class="btn btn--med btn--theme dynamicBgClr project-deployed-link"
                   target="_blank"
                   >Live</a
                 >
                 <a
                   href="https://github.com/AnandRP2030/Nykaa-clone"
-                  class="btn btn--med btn--theme dynamicBgClr github-btn"
+                  class="btn btn--med btn--theme dynamicBgClr github-btn project-github-link"
                   target="_blank"
                   >Git hub</a
                 >
@@ -564,10 +565,10 @@
           </div>
           <div class="main-footer__row main-footer__row-2">
             <h4 class="heading heading-sm text-lt">Anand R P</h4>
-            <p class="main-footer__short-desc">
+            <p class="main-footer__short-desc" id="contact-phone">
               Phone Number: &nbsp; 86064 63169
             </p>
-            <p class="main-footer__short-desc">
+            <p class="main-footer__short-desc" id="contact-email">
               Email Id: &nbsp; anand.rp2030@gmail.com
             </p>
             <p class="main-footer__short-desc">
