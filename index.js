@@ -38,15 +38,18 @@ headerLogoConatiner.addEventListener('click', () => {
 })
 
 
-function downloadPDF(event) {
-  event.preventDefault(); 
+function redirectToPDF(event) {
+  event.preventDefault(); // Prevent the default link behavior
 
+  // Get the URL of the PDF file
   var pdfUrl = event.target.href;
+
+  // Open the PDF in a new tab
   window.open(pdfUrl, '_blank');
+
   // Download the PDF
   var link = document.createElement('a');
   link.href = pdfUrl;
-  link.target = '_blank'; // Open in a new tab
   link.download = 'Anand-RP-Resume.pdf'; // Set the downloaded file name
   link.click();
 }
