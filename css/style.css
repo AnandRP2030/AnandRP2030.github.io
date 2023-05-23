@@ -1036,7 +1036,7 @@ textarea {
   padding: 14px 10px;
 }
 
-#resume-button-2 {
+#resume-button-2, #resume-link-2 {
   background-color: rgb(210, 11, 11);
   color: white;
   margin-left: 1%;

@@ -36,3 +36,17 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+
+function downloadPDF(event) {
+  event.preventDefault(); 
+
+  var pdfUrl = event.target.href;
+  window.open(pdfUrl, '_blank');
+  // Download the PDF
+  var link = document.createElement('a');
+  link.href = pdfUrl;
+  link.target = '_blank'; // Open in a new tab
+  link.download = 'Anand-RP-Resume.pdf'; // Set the downloaded file name
+  link.click();
+}
