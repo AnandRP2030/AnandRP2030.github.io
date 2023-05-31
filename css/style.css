@@ -889,6 +889,7 @@ textarea {
 .skills {
   display: flex;
   flex-wrap: wrap;
+
 }
 .skills__skill {
   padding: 1rem 1rem;
@@ -974,7 +975,9 @@ textarea {
 .skills__skill > p {
   width: 100%;
   box-sizing: border-box;
-  
+}
+#skills {
+  height: 600px;
 }
 
 .skills__skill > img {
