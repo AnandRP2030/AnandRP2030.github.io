@@ -392,6 +392,7 @@ textarea {
 }
 .projects__row-content {
   padding: 2rem 0;
+  padding-top: 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
