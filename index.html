@@ -20,6 +20,17 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- github calendar  -->
+    <!-- Include the library. -->
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script> 
+
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+
     <!-- font awesome  -->
     <script
       src="https://kit.fontawesome.com/b78a585d56.js"
@@ -593,6 +604,12 @@
         My Github Contributions <i class="fa-brands fa-github github-icon"></i>
       </h1>
 
+      <!-- Prepare a container for your calendar. -->
+      <!-- <div class="calendar" style="width: 100%; background-color: rgb(112, 96, 96);">
+        
+        Loading the data just for you.
+      </div> -->
+
       <div>
         <br />
         <img
@@ -617,9 +634,6 @@
           alt="AnandRP2030"
           id="github-top-langs"
         />
-
-        
-        
       </div>
       <h1 class="git-heading">Leet Code</h1>
       <div>
@@ -673,7 +687,7 @@
           <div class="main-footer__row main-footer__row-2">
             <h4 class="heading heading-sm text-lt">Anand R P</h4>
             <p class="main-footer__short-desc" id="contact-phone">
-              Phone Number: &nbsp; 86064 63169
+              Phone Number: &nbsp; 86 06 46 31 69
             </p>
             <p class="main-footer__short-desc" id="contact-email">
               Email Id: &nbsp; anand.rp2030@gmail.com
@@ -692,28 +706,21 @@
     </footer>
 
     <!-- git hub calendar script  -->
-    <!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
-
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-    />
+    <script src="./index.js"></script>
 
     <script>
       GitHubCalendar(".calendar", "AnandRP2030");
-
-   
-      GitHubCalendar(".calendar", "AnandRP2030", { responsive: true });
-
-     
+  
+      // or enable responsive functionality:
+      GitHubCalendar(".calendar", "your", { responsive: true });
+  
+      // Use a proxy
       GitHubCalendar(".calendar", "AnandRP2030", {
-        proxy(username) {
-          return fetch(`https://your-proxy.com/github?user=AnandRP2030`);
-        },
-      }).then((r) => r.text());
-    </script> -->
-
-    <script src="./index.js"></script>
+         proxy (username) {
+           return fetch(`https://your-proxy.com/github?user=${AnandRP2030}`)
+         }
+      }).then(r => r.text())
+  </script>
   </body>
 </html>
